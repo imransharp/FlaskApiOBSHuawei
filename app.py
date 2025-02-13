@@ -5,18 +5,10 @@ from obs import ObsClient
 
 # # Initialize the CMSS client with Access Key and Secret Key
 obs_client = ObsClient(
-    access_key_id='GWDZ4VSDEYK9OXRMW14T',
-    secret_access_key='p8SWMuaZPGsSvxmtWEZHmSMyWAlFN39JHCyAL9y1',
-    server='eos.zongcloud.com.pk'
-    # region = 'region-islamabad'
+  
 )
 
-# Initialize the OBS client with Access Key and Secret Key
-# obs_client = ObsClient(
-#     access_key_id='A7RGTGVUJDREDIUKTLTX',
-#     secret_access_key='zvThKFW90kES8gPYrl849473fsDwA87bcgacXPcC',
-#     server='obsv3.zong-hpcc-isb.zongcloud.com.pk'
-# )
+
 
 @app.route('/')
 def home():
